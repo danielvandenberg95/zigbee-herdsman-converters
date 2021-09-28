@@ -70,6 +70,13 @@ module.exports = [
         extend: tradfriExtend.light_onoff_brightness_colortemp(),
     },
     {
+        zigbeeModel: ['TRADFRIbulbE27WSglobeopal1055lm'],
+        model: 'LED2003G10',
+        vendor: 'IKEA',
+        description: 'TRADFRI LED bulb E27 1055 lumen, dimmable, white spectrum, opal white',
+        extend: tradfriExtend.light_onoff_brightness_colortemp(),
+    },
+    {
         zigbeeModel: ['TRADFRI Light Engine'],
         model: 'T2011',
         description: 'Osvalla panel round',
